@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Poppins&family=Roboto&family=Source+Code+Pro:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+a,
+p,
+li {
+  font-family: "Source Code Pro", monospace;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  color: #fff;
+  background-color: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .logo h1 {
+  font-weight: bolder;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 3rem;
+  color: #e91e63;
+}
+
+.navbar .nav-items {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.navbar .nav-items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar .nav-items ul a {
+  color: #e91e63;
+}
+
+.navbar .nav-items ul li {
+  margin: 0 10px;
+  font-size: 1.4rem;
+}
+
+.navbar .nav-items .navlinks:hover {
+  border-bottom: 2px solid #e91e63;
+}
+
+.hamburger {
+  font-size: 2rem;
+}
+
+.main {
+  height: 100vh;
+  padding: 0 2rem;
+  background-color: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .info {
+  width: 50%;
+  height: 50vh;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .info .name {
+  font-size: 2.1rem;
+  font-family: "Baloo Bhai 2", cursive;
+  line-height: 1;
+}
+
+.main .info .name span {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 800;
+  font-size: 7rem;
+  color: #e91e63;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.main .info .about-me {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-family: "Baloo Bhai 2", cursive;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+
+.main .info .moreabout {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-family: "Source Code Pro", monospace;
+  line-height: 1;
+  letter-spacing: 0.4px;
+}
+
+.about {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 2rem;
+  padding: 0 2rem;
+}
+
+.about .about-info {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.about .about-info h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #e91e63;
+}
+
+.about .about-info p {
+  margin-bottom: 1.4rem;
+}
+
+.about .about-info li {
+  list-style: none;
+  font-weight: 550;
+}
+
+.about .profile-img {
+  width: 50%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .profile-img img {
+  height: 600px;
+  width: 600px;
+  border: radius 50%;
+}
+
+.contact {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #111;
+  color: #fff;
+  padding: 0 4rem;
+}
+
+.contact .contact-img {
+  width: 50%;
+  color: white;
+  padding: 4rem;
+}
+
+.contact .contact-img img {
+  width: 100%;
+}
+
+.contact .contact-info {
+  width: 50%;
+}
+
+.contact .contact-info h1 {
+  font-size: 3rem;
+  color: #e91e63;
+}
+
+.contact .contact-info p {
+  margin-bottom: 2rem;
+}
+
+.contact .contact-info .contact-btn {
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+  border-radius: 0.4rem;
+}
+
+.contact .contact-info .contact-btn:hover {
+  color: #fff;
+  background-color: #e91e63;
+}
+
+.contact .contact-info .contact-box {
+  text-align: left;
+}
+
+.contact .contact-info .contact-box .contact-title {
+  font-size: 2rem;
+}
+
+.contact .contact-info .contact-box .desc {
+  margin: 0.5rem 0;
+}
+
+.contact .contact-info .contact-box i {
+  color: #e91e63;
+  display: inline;
+  font-size: 2rem;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+.contact .contact-info .contact-box p {
+  display: inline;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.education {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  color: #111;
+  padding: 0 4rem;
+}
+
+.education .education-img {
+  width: 50%;
+  color: white;
+  padding: 4rem;
+}
+
+.education .education-img img {
+  width: 100%;
+}
+
+.education .education-info {
+  width: 50%;
+}
+
+.education .education-info h1 {
+  font-size: 3rem;
+  color: #e91e63;
+}
+
+.education .education-info p {
+  margin-bottom: 2rem;
+}
+
+.education .education-info .education-btn {
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+  border-radius: 0.4rem;
+}
+
+.education .education-info .education-btn:hover {
+  color: #fff;
+  background-color: #e91e63;
+}
+
+.education .education-info .education-box {
+  text-align: left;
+}
+
+.education .education-info .education-box .education-title {
+  font-size: 2rem;
+}
+
+.education .education-info .education-box .desc {
+  border-left: 5px solid #e91e63;
+  padding-left: 2rem;
+  margin: 0.5rem 0;
+}
+
+.education .education-info .education-box .desc .education-title {
+  display: inline;
+}
+
+.education .education-info .education-box .desc p {
+  display: block;
+  padding-left: 4rem;
+  margin-bottom: 0.8rem;
+}
+
+.education .education-info .education-box i {
+  color: #e91e63;
+  display: inline;
+  font-size: 2rem;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+.education .education-info .education-box p {
+  display: inline;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.footer {
+  height: 10vh;
+  background-color: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .main .info {
+    width: 100%;
+  }
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .about-info {
+    width: 100%;
+  }
+  .about .profile-img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .education {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .education .education-info {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
